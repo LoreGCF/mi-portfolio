@@ -1,5 +1,3 @@
-# mi-portfolio
-
 # Descripción
 Mi portfolio creado en HTML, CSS y BOOTSTRAP. 
 
