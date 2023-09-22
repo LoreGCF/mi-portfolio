@@ -1,0 +1,956 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio Lorena Garcia Cabana Flores  Developer Full Stack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png">
+
+  </head>
+
+  <body>
+  
+    <!----------------------------------------------------------------------------------->
+    <!---------------------------------Navbar-------------------------------------------->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary navbar-dark bg-dark ">
+      <div class="container">
+        <a class="navbar-brand" href="index1.html">
+          <img src="img/logoargentinaprograma.png" alt="logoargentinaprograma">
+        </a>
+  
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-lg-auto">
+  
+            <li class="nav-item dropdown content-fluid">
+              <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Portafolio
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index1.html#sobre-mi">Sobre Mí</a></li>
+                <li><a class="dropdown-item" href="index1.html#educacion">Educación</a></li>
+                <li><a class="dropdown-item" href="index1.html#experiencia">Experiencia</a></li>
+                <li><a class="dropdown-item" href="index1.html#hard&softskills"><i>Hard & Soft Skills</i></a></li>
+                <li><a class="dropdown-item" href="index1.html#proyectos">Proyectos</a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link" href="https://github.com" target="_blank"><i class="bi bi-github fs-3"></i></a>
+            </li>
+  
+  
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link" href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin fs-3"></i></a>
+            </li>
+  
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link" href="https://facebook.com" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
+            </li>
+  
+  
+  
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link" href="https://person-fill-lock" data-bs-toggle="modal"
+                data-bs-target="#administrador"><i class="bi bi-person-fill-lock fs-2"></i></a>
+            </li>
+  
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!----------------------------------------------------------------->
+    <!--------Ventana Modal Para logout de Administrador--------------->
+    <div class="modal fade" id="administrador" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Administrador</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Usuario</p>
+            <input>
+            <p>Ingrese Clave</p>
+            <input>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+    <main class=" bg-color">
+  
+      <!---------Carrucel Automatico------->
+  
+      <div id="carouselExampleCaptions" class="carousel slide">
+  
+        <div class="carousel-inner">
+          <div class="carousel-caption bg-second-alpha-color">
+            <section class="row align-items-lg-center">
+              <article class="col-3 col-lg-6 d-none d-lg-block ">
+                <img src="img/fotoperfildeveloper.jpg" alt="paso-1" class="rounded-circle img-fluid">
+              </article>
+  
+              <article class="col-9 col-lg-6">
+                <asidi>
+                  <p class="fs-3"><b>Lorena G. Cabana Flores</b></p>
+                  <p class="fs-4"><i>Maquetador Frontend</i></p>
+                </asidi>
+  
+                <asidi class="d-none d-md-block mb-3">
+                  <p>"...Comencé el <b>interés </b>por la programación</p>
+                  <p>a través de Márketing Digital en una <em>época de grandes cambios <b>para el mundo</b></em></p>
+                  <p>año 2020..."</p>
+                </asidi>
+              </article>
+            </section>
+          </div>
+  
+          <div class="carousel-item active">
+            <img src="img/diaproductivo.png" class="d-block w-100 " alt="programacion">
+          </div>
+          <div class="carousel-item">
+            <img src="img/creatividad.png" class="d-block w-100" alt="creatividad">
+          </div>
+          <div class="carousel-item">
+            <img src="img/homeoffice.jpg" class="d-block w-100" alt="diaproductivo">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+      <!---------Sobre Mi------------------>
+      <!---------------------------------->
+      <section id="sobre-mi" class="min-vh-100 bg-hero-image" style="--bg-image: url(../img/fullstack.jpg)">
+        <article class="bg-alpha-color min-vh-100 d-flex align-items-center">
+          <div class="container">
+            <article class="col-12 col-lg-6 mt-5">
+              <h2>Sobre Mí</h2>
+              <p class="my-5 fs-4">
+                Soy una persona <b>comprometida</b><br> con el trabajo y la mejora continua,
+                mi productividad tiene que verse reflejada en la organización.
+                Me gusta trabajar en completo silencio. <b>La creatividad</b> es algo fundamental.
+              </p>
+              <p class="fs-4 fw-bold ">
+                Algunas Cualidades:
+              </p>
+              <div class="row mt-5">
+                <div class="col fs-5">
+                  <p><i class="bi bi-check-lg"></i>Compromiso</p>
+                  <p><i class="bi bi-check-lg"></i>Proactividad</p>
+                  <p><i class="bi bi-check-lg"></i>Sociabilidad</p>
+                </div>
+                <div class="col fs-5">
+                  <p><i class="bi bi-check-lg"></i>Autodidacta</p>
+                  <p><i class="bi bi-check-lg"></i>Flexibilidad</p>
+                  <p><i class="bi bi-check-lg"></i>Creatividad</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </article>
+      </section>
+  
+  
+      <!----------Educación---------------->
+      <!----------------------------------->
+  
+      <section id="educacion">
+        <div class="container pt-5">
+          <section class="row g-0">
+            <article class="col-12 text-center">
+              <h1>Educación & Certificaciones</h1>
+              <p class="fs-5">
+                Educación Formal y Certificaciones
+              </p>
+            </article>
+  
+            <article class="col-12">
+              <div class="card text-bg-dark border-0 rounded-0">
+                <img src="img/programacion.png" class="card-img" alt="argentina-programa">
+                <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                  <h4 class="card-title">Certificación</h4>
+                  <p class="fs-5">Tramo Html y Css</p>
+                  <p class="card-text">
+                    <small>Año 2023</small>
+                    <br>
+                    <a class="text-success" href="#" data-bs-toggle="modal" data-bs-target="#certificacion-1">Ver
+                      Certificación</a>
+                  </p>
+                  <p class="card-text">
+                  <blockquote class="d-none d-md-block">
+                    <b>Argentina Programa 4.0</b> es un Plan nacional, federal e inclusivo impulsado por el Ministerio de
+                    Economía de la Nación con el objetivo de brindar capacitaciones en las temáticas de
+                    programación, testing y habilidades digitales
+                  </blockquote>
+                  </p>
+                </div>
+              </div>
+              <!------------->
+              <!-- Modal -->
+              <div class="modal fade" id="certificacion-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Certificación</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Tramo Html y Css
+                      </p>
+                      Html, Css, manejo de Bootstrap. Git y Github.
+                      <img src="" alt="En impresion Certificado" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+  
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card text-bg-dark border-0 rounded-0">
+                <img src="img/seprogramar.jpg" class="card-img" alt="potenciar-argentina">
+                <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                  <h4 class="card-title">Certificación</h4>
+                  <p class="fs-5">Curso de Full Coders</p>
+                  <p class="card-text">
+                    <small>Año 2023</small>
+                    <br>
+                    <a class="text-success" href="#" data-bs-toggle="modal" data-bs-target="#certificacion-6">Ver
+                      Certificación</a>
+                  </p>
+                  <p class="card-text">
+                  <blockquote class="d-none d-md-block">
+                    Fundación Potenciar Argentina.
+                  </blockquote>
+                  </p>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="certificacion-6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Certificación</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Curso de Full Coders.
+                      </p>
+                      Pensamiento computacional. Programación en Pseudocódigo.
+                      Metodologías Ágiles. Marcos metodológicos ágiles. Pensamiento de diseño.
+                      Git. Github.
+                      <img src="" alt="En Impresion certificado" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </article>
+  
+  
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card text-bg-dark border-0 rounded-0">
+                <img src="img/seprogramar.jpg" class="card-img" alt="argentina-programa">
+                <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                  <h4 class="card-title">Certificación</h4>
+                  <p class="fs-5">Developer Full Stack</p>
+                  <p class="card-text">
+                    <small>Año 2023</small>
+                    <br>
+                    <a class="text-success" href="#" data-bs-toggle="modal" data-bs-target="#certificacion-7">Ver
+                      Certificación</a>
+                  </p>
+                  <p class="card-text">
+                  <blockquote class="d-none d-md-block">
+                    Certificado de asistencia. Primeros acercamientos a la programación.
+                    Tecnologías de Frontend: Html, Css, Bootstrap, Angular. Backend: Java, Spring Boot, MySQL. Netbeans.
+                    "Argentina Programa 4.0"
+                  </blockquote>
+                  </p>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="certificacion-7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Certificación Developer Full Stack</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Certificación de Asistencia
+                      </p>
+                      <img src="img/yoprogramoasistencia.jpg" alt="marketing-digital" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </article>
+  
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card text-bg-dark border-0 rounded-0">
+                <img src="img/inglestecnico.jpg" class="card-img" alt="inglestecnico">
+                <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                  <h4 class="card-title">Certificación</h4>
+                  <p class="fs-5">Inglés Técnico</p>
+                  <p class="card-text">
+                    <small>Año 2023 </small>
+                    <br>
+                    <a class="text-success" href="#" data-bs-toggle="modal" data-bs-target="#certificacion-2">Ver
+                      Certificación</a>
+                  </p>
+                  <p class="card-text">
+                  <blockquote class="d-none d-md-block">
+                    <b>Centro Universitario de Idiomas</b> en convenio con el proyecto "Argentina Programa 4.0"
+                  </blockquote>
+                  </p>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="certificacion-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Certificación</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Inglés Técnico
+                      </p>
+                      <img src="img/inglestecnico.png" alt="musica-1" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </article>
+  
+  
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card text-bg-dark border-0 rounded-0">
+                <img src="img/seprogramar.jpg" class="card-img" alt="seprogramar">
+                <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                  <h4 class="card-title">Certificación</h4>
+                  <p class="fs-5">Sé Programar</p>
+                  <p class="card-text">
+                    <small>Año 2022</small>
+                    <br>
+                    <a class="text-success" href="#" data-bs-toggle="modal" data-bs-target="#certificacion-3">Ver
+                      Certificación</a>
+                  </p>
+                  <p class="card-text">
+                  <blockquote class="d-none d-md-block">
+                    Primera parte del proyecto "Argentina Programa 4.0"</blockquote>
+                  </p>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="certificacion-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Certificación</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Sé Programar
+                      </p>
+                      <img src="img/argentinaprograma.png" alt="se-programar" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </article>
+  
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card text-bg-dark border-0 rounded-0">
+                <img src="img/googlebussines.jpg" class="card-img" alt="goooglebussines">
+                <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                  <h4 class="card-title">Certificación</h4>
+                  <p class="fs-5">Google Bussines</p>
+                  <p class="card-text">
+                    <small>Año 2021</small>
+                    <br>
+                    <a class="text-success" href="#" data-bs-toggle="modal" data-bs-target="#certificacion-5">Ver
+                      Certificación</a>
+                  </p>
+                  <p class="card-text">
+                  <blockquote class="d-none d-md-block">
+                    Google Bussines-Técnicas de Ventas dictadas por el Lic. Gustavo Machado.</blockquote>
+                  </p>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="certificacion-5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Certificación</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Google Bussines-Técnicas de Ventas
+                      </p>
+                      <img src="img/certificadobussines.jpg" alt="googlebussines" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </article>
+  
+  
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card text-bg-dark border-0 rounded-0">
+                <img src="img/marketingdigital.jpg" class="card-img" alt="marketingdigital">
+                <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                  <h4 class="card-title">Certificación</h4>
+                  <p class="fs-5">Márketing Digital</p>
+                  <p class="card-text">
+                    <small>Año 2020</small>
+                    <br>
+                    <a class="text-success" href="#" data-bs-toggle="modal" data-bs-target="#certificacion-4">Ver
+                      Certificación</a>
+                  </p>
+                  <p class="card-text">
+                  <blockquote class="d-none d-md-block">
+                    Márketing Digital para Autores y Compositores dictado por <b>SADAIC</b></blockquote>
+                  </p>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="certificacion-4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Certificación</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Márketing Digital para Autores y Compositores
+                      </p>
+                      <img src="img/SADAIC.jpg" alt="marketing-digital" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </article>
+  
+  
+  
+  
+  
+            <article class="col-12">
+              <div class="card text-bg-dark border-0 rounded-0">
+                <img src="img/programacion.png" class="card-img" alt="argentina-programa">
+                <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                  <h4 class="card-title">Formación Académica</h4>
+                  <p class="fs-5">Contado Público Nacional</p>
+                  <p class="card-text">
+                    <small>Año 2013</small>
+                    <br>
+                    <a class="text-success" href="#" data-bs-toggle="modal" data-bs-target="#certificacion-8">Ver
+                      Curricula</a>
+                  </p>
+                  <p class="card-text">
+                  <blockquote class="d-none d-md-block">
+                    <b>Universidad Nacional de Salta.</b> Porcentaje de la carrera concluido 94,44%
+                  </blockquote>
+                  </p>
+                </div>
+              </div>
+              <!------------->
+              <!-- Modal -->
+              <div class="modal fade" id="certificacion-8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Formación Académica</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Contador Público Nacional
+                      </p>
+                      <img src="" alt="Curricula 94,44%" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </section>
+  
+      <!----------Experiencia------------->
+      <!---------------------------------->
+  
+      <div class="container">
+        <section id="experiencia" class="row align-items-lg-center min-vh-100 pt-5 mb-5">
+  
+          <h3 class="text-dark">Experiencia</h3>
+  
+          <article class="col-12 col-md-6 col-xl-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="img/contabilidad.jpg" class="card-img-top" alt="Rendiciondecuentas">
+              <div class="card-body">
+                <h5 class="card-title">Rendición de Cuentas</h5>
+                <h><b>Gob. Provincia de Salta</b></h>
+                <p>Año 2016-2018</p>
+                <p class="card-text">Encargada del Sub Programa de Rendición de Cuentas </p>
+  
+  
+                <a href="#" data-bs-toggle="modal" data-bs-target="#trabajo-1" class="text-color">
+                  Ver Información
+                  <i class="bi bi-chevron-compact-right"></i>
+                </a>
+  
+                <!---Modal de Información-->
+                <div class="modal fade" id="trabajo-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Trabajo en Dependencia</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Encargada de Rendición de Cuentas
+                        </p>
+                        <p>Descripción</p>
+                        <p>Revisión:
+                          Cajas Chicas de las distintas dependencias del Ministerio (12 cajas). Verificación de
+                          comprobantes, clasificación del gasto, realización de observaciones y emisión de informe.
+                          Apoyos Económicos. Verificación de comprobantes, realización de observaciones y emisión de
+                          informe.
+                          Apoyo Financiero a Organismos no gubernamentales. Verificación de comprobantes, realización de
+                          observaciones y emisión de informe.
+                          Transferencias conforme a la ley de Descentralización de Políticas sociales (municipios).
+                          Verificación de comprobantes, realización de observaciones y emisión de informe. Abarca
+                          programas de Centro de Desarrollo Infantil, Centro de Inclusión Transitoria, Sistemas
+                          Alternativos y programa Incluyendo.
+                          Rendiciones de Fondo Permanente.
+                          Rendiciones de Instituciones Educativas del Sector Público Nacional.
+                          Notificaciones a los distintos municipios y organismos no gubernamentales a fin de regularizar
+                          las rendiciones correspondientes.
+                          Emisión de informes a la superioridad (Unidad de Sindicatura Interna, Administrador General del
+                          SAF, Secretarios y Ministro).
+                          Entrevistas con los distintos funcionarios del Ministerio, encargados de ONG y beneficiarios de
+                          apoyos económicos.
+                          Atención personal y telefónica.
+                        </p>
+  
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+          </article>
+  
+  
+          <article class="col-12 col-md-6 col-xl-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="img/contabilidad.jpg" class="card-img-top" alt="practicascontables">
+              <div class="card-body">
+                <h5 class="card-title">Prácticas laborales no remunerativas</h5>
+                <h><b>Estudio Campastro</b></h>
+                <p>Año 2015</p>
+                <p class="card-text">Carga de Datos</p><br>
+  
+  
+                <a href="#" data-bs-toggle="modal" data-bs-target="#trabajo-2" class="text-color">
+                  Ver Información
+                  <i class="bi bi-chevron-compact-right"></i>
+                </a>
+  
+                <!---Modal de Información-->
+                <div class="modal fade" id="trabajo-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Prácticas Laborales</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Carga de Datos
+                        </p>
+                        <p>Descripción</p>
+                        <p>Carga de datos sistema
+                        </p>
+  
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+          </article>
+  
+          <article class="col-12 col-md-6 col-xl-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="img/contabilidad.jpg" class="card-img-top" alt="tareasadministrativas">
+              <div class="card-body">
+                <h5 class="card-title">Prestador de Servicios Independiente</h5>
+                <h><b>Municipalidad de Salta</b></h>
+                <p>Año 2013-2014</p>
+                <p class="card-text">Tareas Administrativas</p><br>
+  
+                <a href="#" data-bs-toggle="modal" data-bs-target="#trabajo-3" class="text-color">
+                  Ver Información
+                  <i class="bi bi-chevron-compact-right"></i>
+                </a>
+  
+                <!---Modal de Información-->
+                <div class="modal fade" id="trabajo-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Trabajo en forma Independiente</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Tareas Administrativas
+                        </p>
+                        <p>Descripción</p>
+                        <p>Tareas administrativas en la Sub Secretaría de Cultura y Promoción Turística de
+                          la Municipalidad de Salta Capital, atención al público personal y telefónicamente,
+                          trámites en Rentas, en Centro Cívico Municipal, Capital, Prov. Salta.
+                          Como prestador independiente. Monotributo.
+                        </p>
+  
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+          </article>
+  
+  
+  
+        </section>
+      </div>
+  
+      <!----------Hard & Soft Skills------->
+      <!----------------------------------->
+      <section class="div py-3 " id="hard&softskills">
+        <div class="container">
+          <article class="text-center">
+            <h1>Hard & Soft Skills</h1>
+            <p class="fs-4">Filosofía "Kaizen" pequeñas pero constantes mejoras acumulan grandes beneficios a largo plazo.
+            </p>
+            <p class="fs-3">
+              <b>"Una vez que te comprometes, encuentras la manera de lograrlo..."</b>
+            </p>
+          </article>
+  
+  
+  
+  
+  
+          <section class="row align-items-lg-center my-5">
+            <article class="col-12 col-lg-6 order-lg-1">
+              <h2>Habilidad</h2>
+              <h3>HTML</h3>
+              <p>Lenguaje de Marcado Hiper texto</p>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 90%">90%</div>
+              </div>
+            </article>
+          </section>
+  
+          <section class="row align-items-lg-center my-5">
+            <article class="col-12 col-lg-6  text-lg-end">
+              <h2>Habilidad</h2>
+              <h3>CSS</h3>
+              <p>Hojas de Estilo en Cascada</p>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 75%">75%</div>
+              </div>
+            </article>
+          </section>
+  
+          <section class="row align-items-lg-center my-5">
+            <article class="col-12 col-lg-6 order-lg-1">
+              <h2>Habilidad</h2>
+              <h3>Bootstrap</h3>
+              <p>Framework</p>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-danger" style="width: 75%">75%</div>
+              </div>
+            </article>
+          </section>
+  
+          <section class="row align-items-lg-center my-5">
+            <article class="col-12 col-lg-6  text-lg-end">
+              <h2>Habilidad</h2>
+              <h3>Responsabilidad</h3>
+              <p></p>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-success" style="width: 100%">100%</div>
+              </div>
+            </article>
+          </section>
+  
+          <section class="row align-items-lg-center my-5">
+            <article class="col-12 col-lg-6 order-lg-1">
+              <h2>Habilidad</h2>
+              <h3>Compromiso</h3>
+              <p></p>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 100%">100%</div>
+              </div>
+            </article>
+          </section>
+  
+          <section class="row align-items-lg-center my-5">
+            <article class="col-12 col-lg-6  text-lg-end">
+              <h2>Habilidad</h2>
+              <h3>Metodologías ágiles</h3>
+              <p>Scrum, Kanban, Design Thinking</p>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-success" style="width: 80%">80%</div>
+              </div>
+            </article>
+          </section>
+  
+          <section class="row align-items-lg-center my-5">
+            <article class="col-12 col-lg-6 order-lg-1">
+              <h2>Habilidad</h2>
+              <h3>Git - Github</h3>
+              <p></p>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-danger" style="width: 70%">70%</div>
+              </div>
+            </article>
+          </section>
+          <section class="row align-items-lg-center my-5">
+            <article class="col-12 col-lg-6 text-lg-end">
+              <h2>Habilidad</h2>
+              <h3>Idioma Inglés</h3>
+              <p>Dominio técnico del idioma. Trabajando actualmente en manejo fluido del mismo.</p>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-success" style="width: 25%">25%</div>
+              </div>
+            </article>
+          </section>
+  
+  
+        </div>
+      </section>
+  
+      <!-------------Proyectos-------------->
+      <!----------------------------------->
+  
+      <div class="container" id="proyectos">
+        <section class="row g-0">
+          <article class="col-12 text-center">
+            <h1>Proyectos</h1>
+          </article>
+  
+  
+  
+  
+          <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card text-bg-dark border-50 rounded-0">
+              <img src="img/ProyArgprog.png" class="card-img" alt="marketing-digital">
+              <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                <h4 class="card-title">Portfolio en Bootstrap</h4>
+                <p class="card-text">
+                  <small></small>
+                  <br>
+                  <a class="text-bg-dark fs-4" href="#">Ver Proyecto</a>
+                </p>
+                <p class="card-text">
+                <blockquote class="d-none d-md-block">
+                </blockquote>
+                </p>
+              </div>
+            </div>
+          </article>
+  
+          <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card text-bg-dark border-50 rounded-0">
+              <img src="img/ProyArgprog.png" class="card-img" alt="marketing-digital">
+              <div class="card-img-overlay bg-second-alpha-color  d-flex flex-column justify-content-md-center">
+                <h4 class="card-title">Programa Pseint - Recategorización de Monotributo</h4>
+                <p class="card-text text-dark">
+                  <small><b></b></small>
+                  <br>
+                  <a class="text-bg-dark fs-4" href="https://github.com/LoreGCF/proyectoPotenciarArgentina.git"
+                    target="_blank">Ver Proyecto</a>
+                </p>
+                <p class="card-text">
+                <blockquote class="d-none d-md-block">
+                </blockquote>
+                </p>
+              </div>
+            </div>
+          </article>
+  
+          <!--   <article class="col-12 col-sm-6 col-lg-4">
+                <div class="card text-bg-dark border-50 rounded-0">
+                  <img src="img/proyMarketing.png" 
+                       class="card-img"  
+                       alt="marketing-digital">
+                  <div class="card-img-overlay bg-second-alpha-color d-flex flex-column justify-content-md-center">
+                    <h5 class="card-title">Márketing Digital</h5>
+                    <p class="card-text">
+                      <small> </small>
+                      <br>
+                      <a class="text-bg-dark fs-4" href="#" data-bs-toggle="modal" data-bs-target="#marketingdigital">Ver Proyecto</a>
+                    </p >
+                    <p class="card-text">
+                      <blockquote class="d-none d-md-block">
+                     </blockquote></p>
+                  </div>
+                </div>
+              </article>-->
+  
+        </section>
+      </div>
+  
+  
+    </main>
+  
+  
+    <footer class="bg-dark p-3 ">
+      <div class="container text-center">
+        <nav class="d-flex justify-content-evenly">
+          <a class="d-block d-lg-none" href="https://github.com" target="_blank"><i class="bi bi-github fs-3"></i></a>
+          <a class="d-block d-lg-none" href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin fs-3"></i></a>
+          <a class="d-block d-lg-none" href="https://facebook.com" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
+          <a class="d-block d-lg-none" href="https://person-fill-lock" data-bs-toggle="modal"
+            data-bs-target="#administrador"><i class="bi bi-person-fill-lock fs-2"></i></a>
+        </nav>
+        <smoll class="text-white">&copy;2023 @LorenaGCabanaFlores</smoll>
+      </div>
+    </footer>
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
