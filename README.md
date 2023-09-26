@@ -5,7 +5,7 @@ Mi portfolio creado en HTML, CSS y BOOTSTRAP.
 Lorena G. Cabana Flores
 
 * [Linkedin](https://www.linkedin.com/in/loregcf/)
-* [Portfolio Web]()
+* [Portfolio Web](https://loregcf.github.io/mi-portfolio/)
 
 # Contacto
 g_fgl@live.com.ar
